@@ -1,0 +1,22 @@
+{
+    "name": "lambda-template",
+    "version": "1.0.0",
+    "description": "Base template for the creation of a Lambda CI/CD pipelines with CodeBuild",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon",
+        "lint": "eslint **/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nimbly-chris/lambda-template.git"
+    },
+    "author": "Chris Ballment",
+    "contributors": [],
+    "devDependencies": {
+        "eslint": "^8.33.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.27.5"
+    }
+}
